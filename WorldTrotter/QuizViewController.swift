@@ -7,7 +7,7 @@
 
 import UIKit
 
-class QuizViewController: UIViewController {
+class ViewController: UIViewController {
     @IBOutlet var questionLabel: UILabel!
     @IBOutlet var answerLabel: UILabel!
 
@@ -44,6 +44,7 @@ class QuizViewController: UIViewController {
         override func viewDidLoad() {
             super.viewDidLoad()
             questionLabel.text = questions[currentQuestionIndex]
+            print("QuizViewControllerloaded its view.")
         }
 
 }
