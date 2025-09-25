@@ -110,7 +110,7 @@
         <scene sceneID="GQ8-Jx-lpK">
             <objects>
                 <viewController id="SG8-hP-EXW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="QwA-f6-0JH">
+                    <view key="view" contentMode="scaleToFill" id="QwA-f6-0JH">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="791"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -145,6 +145,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Quiz" id="WR3-9K-kE8"/>
+                    <connections>
+                        <outlet property="view" destination="6tP-4F-dgf" id="akj-vK-DyV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fm1-rV-8aS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -157,6 +160,7 @@
                     <tabBarItem key="tabBarItem" title="Quiz" image="questionmark.app.fill" catalog="system" id="7Yp-cI-RuB"/>
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5vn-AU-pd5">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
