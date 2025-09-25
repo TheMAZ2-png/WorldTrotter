@@ -52,10 +52,6 @@ class MapViewController: UIViewController {
         trailingConstraint.isActive = true
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        print("MapViewController loaded its view.")
-    }
+    
 
 }
